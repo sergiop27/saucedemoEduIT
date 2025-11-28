@@ -1,0 +1,34 @@
+[
+    {
+        "idCaso": "login_Exitoso",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "tipoResultado": "EXITO",
+        "descripcion": "Login Exitoso con Usuario Estadar",
+        "repeticiones": 1
+    },
+    {
+        "idCaso": "login_Fallido_Contrasena",
+        "username": "CUALQUIER USUARIO",
+        "password": "",
+        "tipoResultado": "ERROR",
+        "descripcion": "Login Fallido por contaseña requerida",
+        "repeticiones": 1
+    },
+    {
+        "idCaso": "login_Fallido_Usuario",
+        "username": "",
+        "password": "secret_sauce",
+        "tipoResultado": "ERROR",
+        "descripcion": "Login Fallido por usuario requerido",
+        "repeticiones": 1
+    },
+    {
+        "idCaso": "login_Fallido_Invalido",
+        "username": "standard_user",
+        "password": "123456",
+        "tipoResultado": "ERROR",
+        "descripcion": "Login Fallido por usuario y contraseña no coinciden",
+        "repeticiones": 1
+    }
+]
